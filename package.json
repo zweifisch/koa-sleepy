@@ -1,0 +1,21 @@
+{
+  "name": "koa-sleepy",
+  "version": "0.1.0",
+  "description": "rest router for koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape"
+  },
+  "keywords": [
+    "rest",
+    "class",
+    "rest",
+    "koa"
+  ],
+  "author": "zf",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "debug": "^2.2.0"
+  }
+}
