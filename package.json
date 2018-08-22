@@ -1,21 +1,38 @@
 {
   "name": "koa-sleepy",
+  "description": "RESTful Router for Koa",
   "version": "0.1.0",
-  "description": "rest router for koa",
   "main": "index.js",
   "scripts": {
-    "test": "tape"
+    "test": "mocha --bail --exit",
+    "release": "standard-version"
   },
   "keywords": [
     "rest",
-    "class",
-    "rest",
-    "koa"
+    "koa",
+    "router"
   ],
   "author": "zf",
   "license": "MIT",
   "dependencies": {
-    "co": "^4.6.0",
-    "debug": "^2.2.0"
-  }
+    "debug": "^3.1.0",
+    "koa-compose": "^4.1.0"
+  },
+  "devDependencies": {
+    "koa": "^2.5.2",
+    "mocha": "^5.2.0",
+    "standard-version": "^4.4.0",
+    "supertest": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zweifisch/koa-sleepy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zweifisch/koa-sleepy/issues"
+  },
+  "homepage": "https://github.com/zweifisch/koa-sleepy#readme"
 }
