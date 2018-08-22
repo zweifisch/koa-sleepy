@@ -4,7 +4,7 @@
 [![Build Status][travis-image]][travis-url]
 [![Node.js Version][node-version-image]][node-version-url]
 
-router for RESTful api
+router for building RESTful api
 
 ```js
 const Koa = require('koa')
@@ -19,6 +19,7 @@ class User {
     destory (ctx, id) {}
     more(ctx, id) {}
 }
+const app = new Koa()
 app.use(restify('/users', User))
 app.listen()
 ```

@@ -1,7 +1,7 @@
 {
   "name": "koa-sleepy",
   "description": "RESTful Router for Koa",
-  "version": "0.1.0",
+  "version": "0.1.1-alpha.0",
   "main": "index.js",
   "scripts": {
     "test": "mocha --bail --exit",
@@ -25,7 +25,7 @@
     "supertest": "^3.1.0"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=8.6.0"
   },
   "repository": {
     "type": "git",
